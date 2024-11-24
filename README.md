@@ -20,6 +20,7 @@ Go into the "Real-ESRGAN-master" folder, click the address bar (top bar that sho
 
  - DOWNLOAD THE DEPENDENCIES & SETUP ESRGAN
  - Normal Method
+
 Type "pip install -r requirements.txt"
 
 Then type "python setup.py"
@@ -37,6 +38,7 @@ Put the "Build" file into the "Real-ESRGAN-master" folder, which you should have
 Run the "Build" file once you place it in there
 
  - HOW IT WORKS
+
 Place an Image or Video into the "MEDIA" folder
 
 FOR A GIF: (If you want to use a Gif, you need to turn it into a video, use the script on it, then turn it back into a Gif)
