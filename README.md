@@ -49,3 +49,17 @@ Run the "Video" file for Videos
 
 Run the "AcidVideo" file on a low fps video, to give it a trippy effect
 
+When the console closes, your new files will be in the "OUTPUT" folder
+
+ - DOWNSCALER
+
+There is a Downscaler included in the "DOWNSCALER" folder
+
+
+This should work for Images, Videos, and Gifs
+
+Your files go in the "MEDIA" folder
+
+run the "Start" file
+
+When the console closes, your Downscaled files will be in the "OUTPUT" folder
