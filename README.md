@@ -63,3 +63,21 @@ Your files go in the "MEDIA" folder
 run the "Start" file
 
 When the console closes, your Downscaled files will be in the "OUTPUT" folder
+
+ - IF YOU LAG RUNNING THE SCRIPT
+
+You need to edit a line in the script you are using
+
+They are in the "SCRIPTS" folder
+
+Line in ImageQuality script: 15
+
+Line in AcidVideo script: 51
+
+Line in VideoQuality script: 51
+
+Lower this number if you lag while running the script, it can be one of the values below for best processing
+
+"1024" "512" "256" "128" "64" "32" "16" "8" "4" "2" "1"
+
+DO NOT USE "0" THIS WILL PROCESS EVERYTHING AT ONCE
