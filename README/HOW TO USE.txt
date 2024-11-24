@@ -1,0 +1,41 @@
+ --- NOTES ---
+
+THIS ONLY WORKS FOR IMAGES AND VIDEOS
+
+IF YOU WANT TO USE IT FOR A GIF, YOU NEED TO CONVERT YOUR GIF INTO A VIDEO, THEN YOU CAN USE THIS SCRIPT ON IT, THEN CONVERT IT BACK INTO A GIF
+
+YOU NEED FFMPEG INSTALLED TO SYSTEM PATH FOR THIS TO WORK
+ - FFMPEG DOWNLOAD: https://ffmpeg.org/download.html
+ - FFMPEG PATH TUTORIAL: https://youtu.be/JR36oH35Fgg
+
+YOU NEED PYTHON INSTALLED TO SYSTEM PATH FOR THIS TO WORK
+
+
+ --- BUILD THE ESRGAN FILES ---
+
+Go into the "Quality Enhancer" folder, then in the "ESRGAN-mnaster" folder, then in the "Real-ESRGAN-master" folder
+
+Run the "Build" file
+
+
+ --- INSTRUCTIONS ---
+
+ - Run the "Install Requirements" file, which is inside of the "DOWNLOADS" folder, along with the Python and FFMPEG downloads
+
+ - Add your file into the "MEDIA" folder (Images or Videos)
+
+ - For an Image, run the "Image" file, for a Video run the "Video" file, the "AcidVideo" file works best for low fps videos, it creates a trippy effect
+
+ - After the command prompt closes, your finished file will be in the "OUTPUT" folder
+
+ - If it created any temp files in the script directory, or any new temp folders, you can delete those after the console closes
+
+ --- IMPORTANT ---
+
+If you start to lag while running these scripts, go into the "SCRIPTS" folder
+
+look for the line that says this
+
+"--tile", "1024", # LOWER THIS NUMBER IF YOU LAG (1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1) (do not use 0, this will process everything at once)
+
+change the number "1024" to a lower number (DO NOT USE "0") (THIS WILL ONLY WORK IF YOU HAVE A GRAPHICS CARD (GPU))
