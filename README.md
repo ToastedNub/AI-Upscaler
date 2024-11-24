@@ -78,6 +78,16 @@ Line in VideoQuality script: 51
 
 Lower this number if you lag while running the script, it can be one of the values below for best processing
 
-"1024" "512" "256" "128" "64" "32" "16" "8" "4" "2" "1"
+ - "1024"
+ - "512"
+ - "256"
+ - "128"
+ - "64"
+ - "32"
+ - "16"
+ - "8"
+ - "4"
+ - "2"
+ - "1"
 
 DO NOT USE "0" THIS WILL PROCESS EVERYTHING AT ONCE
